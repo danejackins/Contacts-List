@@ -1,4 +1,3 @@
-// add contact functionality
 $("input[type=submit]").on("click", function(event) {
   event.preventDefault();
 
@@ -19,7 +18,7 @@ $("input[type=submit]").on("click", function(event) {
   });
 });
 
-// delete contact functionality
+
 $(".delete").on("click", function(event) {
   const id = $(this).attr("data-id");
   console.log(id);
